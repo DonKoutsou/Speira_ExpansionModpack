@@ -1,0 +1,98 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "51FAD317FC20EC1B"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab ""
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{6FD6C96121905202}prefabs/Items/Equipment/Watches/Watch_Vostok.et"
+      }
+     }
+    }
+   }
+   Attributes ItemAttributeCollection "{52BAC70D641B89B1}" {
+   }
+  }
+  CharacterWeaponManagerComponent "{5C9CA676383262FD}" {
+   DefaultWeaponIndex 0
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Medic"
+    Icon "{F3FCC3B9732551D9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Medic.edds"
+    IconSetName ""
+    m_Image "{9225D8E3CFAD7926}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Medic.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et"
+   WeaponSlotIndex 0
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{013C6C3230208CF6}Prefabs/Characters/Uniforms/Hat_M88_FieldcapUP.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{D0F630FFFFC7C67C}Prefabs/Characters/Uniforms/Jacket_M88Afghanka.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{EDA7A811644B14F1}Prefabs/Characters/Uniforms/Pants_M88Black.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{BCEE4FDAC93C56B7}Prefabs/Characters/Uniforms/Boots_Sapogi.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{7AC107CA7AFC9B59}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6726C63F4F56F12F}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_medic.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88Afghanka.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+    }
+    ItemsInitConfigurationItem "{5E1AECEFD3938640}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_M88Black.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{54A68D655225E63E}" {
+     TargetStorage "Prefabs/Items/Equipment/Accessories/Pouch_Soviet_30rnd_AK74/Pouch_Soviet_30rnd_AK74.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{5590D9E77F3FD7BD}" {
+     TargetStorage ""
+    }
+    ItemsInitConfigurationItem "{5A5CCAB6745FD597}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{5D2678DF51A4FB4E}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_MedicalPouch.et"
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+}

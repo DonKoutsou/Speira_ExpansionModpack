@@ -1,0 +1,20 @@
+GameProject {
+ ID "SpeiraExpansionModpack"
+ GUID "5E62976AC3ABCE46"
+ TITLE "Speira-ExpansionModpack"
+ Dependencies {
+  "5AE76415957F8FE0" "58D0FB3206B6F859" "599E138395B09692" "5E39644AB07EA789" "595F2BF2F44836FB"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

@@ -1,0 +1,3 @@
+SubScene {
+ Parent "{E548D7DEC7469E1C}Worlds/Prefab_setup/Characters.ent"
+}

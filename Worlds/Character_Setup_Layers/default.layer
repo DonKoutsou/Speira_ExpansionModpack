@@ -1,0 +1,23 @@
+GenericEntity : "{015B446AFEB40F0D}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_b18_LTSU.et" {
+ coords 166.501 1 248.414
+}
+GenericEntity : "{2259092E586DD78B}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_b18_t1.et" {
+ coords 166.32 1 248.44
+}
+GenericEntity : "{455E257F80BE6C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_1pn93.et" {
+ coords 166.188 1 248.594
+}
+SCR_ChimeraCharacter : "{5117311FB822FD1F}prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et" {
+ coords 142.478 1 252.728
+ angleY 156.273
+}
+GenericEntity : "{53F72BF37E1A67D0}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_b18.et" {
+ coords 166.695 1 248.369
+}
+GenericEntity : "{662A2CAF5AC49AF4}Prefabs/Weapons/Rifles/AK74N/Rifle_AK74N_railed.et" {
+ coords 166.881 1 248.32
+}
+GenericEntity : "{9A2AA760B16BCDBE}Prefabs/Weapons/Rifles/M40/Rifle_M40A5.et" {
+ coords 167.432 1 248.606
+ angleY 0
+}

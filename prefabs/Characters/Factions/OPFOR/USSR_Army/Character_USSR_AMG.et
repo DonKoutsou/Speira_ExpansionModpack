@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "522AAC667BF61423"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{013C6C3230208CF6}Prefabs/Characters/Uniforms/Hat_M88_FieldcapUP.et"
+    }
+   }
+  }
+ }
+}

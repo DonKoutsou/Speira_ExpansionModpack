@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "200D264F0EEA1A28"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{8665F6087596FA75}Prefabs/Characters/Uniforms/Jacket_M88Afghanka_Tucked.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6872A5839E56E950}Prefabs/Characters/Uniforms/Pants_M88Black_Lowboot.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_M88Black_Lowboot.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Suspenders.et"
+    }
+    ItemsInitConfigurationItem "{5E1AECEFD3938640}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88Afghanka_Tucked.et"
+    }
+   }
+  }
+ }
+}

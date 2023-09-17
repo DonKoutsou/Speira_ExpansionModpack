@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{9CBE5BFE26594580}Prefabs/Characters/Uniforms/Hat_M88ButanForest_FieldcapUP.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{58E9C346F5DF5A2B}Prefabs/Characters/Uniforms/Jacket_M88Butan_Forest_Rolled.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6872A5839E56E950}Prefabs/Characters/Uniforms/Pants_M88Black_Lowboot.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_M88Black_Lowboot.et"
+    }
+    ItemsInitConfigurationItem "{5E1AECEFD3938640}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88Butan_Forest_Rolled.et"
+    }
+    ItemsInitConfigurationItem "{5590D9E7EF8BF25D}" {
+     TargetStorage ""
+    }
+   }
+  }
+ }
+}

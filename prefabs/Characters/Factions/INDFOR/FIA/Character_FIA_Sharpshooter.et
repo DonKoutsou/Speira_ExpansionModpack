@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{DE3786C0C6C978D4}prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Head {
+     Prefab "{244A6A1121439AAC}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_base.et"
+    }
+   }
+  }
+ }
+}
